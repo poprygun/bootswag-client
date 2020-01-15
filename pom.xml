@@ -132,8 +132,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-<!--                            <inputSpec>https://github.com/poprygun/boot-swag/blob/master/config/api-definitions.yml</inputSpec>-->
-                            <inputSpec>config/api-definitions.yml</inputSpec>
+                            <inputSpec>https://raw.githubusercontent.com/poprygun/boot-swag/master/config/api-definitions.yml</inputSpec>
 
                             <!-- target to generate java client code -->
                             <generatorName>java</generatorName>
